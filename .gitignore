@@ -1,0 +1,10 @@
+node_modules/
+starter/dist/
+starter/*.tsbuildinfo
+runs/
+playwright-report/
+test-results/
+.DS_Store
+.env
+.env.*
+!.env.example

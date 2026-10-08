@@ -1,0 +1,77 @@
+{
+  "id": "3ds-ui-replication",
+  "version": "1.0.0",
+  "prompt": "PROMPT.md",
+  "defaultTheme": "dark",
+  "references": [
+    {
+      "file": "references/01-home-dark.png",
+      "role": "primary-software",
+      "width": 432,
+      "height": 528,
+      "sha256": "0ccf4cfbc5f12e24ddb7c94833a11a8ac492aa717040efa009365c71e2525002",
+      "screenRects": {
+        "upper": { "x": 16, "y": 16, "width": 400, "height": 240 },
+        "lower": { "x": 56, "y": 272, "width": 320, "height": 240 }
+      }
+    },
+    {
+      "file": "references/02-hardware-aqua-blue.png",
+      "role": "primary-hardware",
+      "width": 884,
+      "height": 780,
+      "sha256": "f37e769f8462b1b4d08a118b1947173df6b05709fd3a7219969767dacd6ca32a"
+    },
+    {
+      "file": "references/03-home-light-detail.png",
+      "role": "auxiliary-only",
+      "width": 400,
+      "height": 480,
+      "sha256": "b5eb93d501d8fcedbd5507e50dd7def8fb77435354a074a0a334c82ed1e1e560"
+    }
+  ],
+  "capture": {
+    "desktop": { "width": 1440, "height": 1000 },
+    "mobile": { "width": 390, "height": 844 },
+    "deviceScaleFactor": 1,
+    "locale": "en-US",
+    "timezoneId": "UTC",
+    "colorScheme": "light",
+    "reducedMotion": "reduce",
+    "background": "#e8ecef",
+    "desktopConsoleWidth": 700,
+    "mobileMargin": 12
+  },
+  "initialState": {
+    "selectedApp": "mario-64-ds",
+    "previewTitle": "Super Mario 64 DS",
+    "publisher": "Nintendo",
+    "dateText": "29/11 (Tue)",
+    "timeText": "15:11",
+    "coins": 300,
+    "gridRows": 4,
+    "gridColumns": 7,
+    "visibleTileCount": 28
+  },
+  "interactionApps": {
+    "mario-64-ds": "Super Mario 64 DS",
+    "nintendo-eshop": "Nintendo eShop",
+    "system-settings": "System Settings"
+  },
+  "rubric": [
+    { "id": "hardware", "name": "Hardware", "max": 25 },
+    { "id": "upper_screen", "name": "Upper screen", "max": 22 },
+    { "id": "lower_screen", "name": "Lower screen", "max": 23 },
+    { "id": "detail_responsive", "name": "Detail and responsive layout", "max": 10 },
+    { "id": "interaction", "name": "Interaction", "max": 15 },
+    { "id": "engineering", "name": "Engineering", "max": 5 }
+  ],
+  "protocolDefaults": {
+    "wallClockMinutes": 30,
+    "minimumRecommendedRuns": 3,
+    "humanFeedbackRounds": 0,
+    "extraRuntimeDependenciesAllowed": false,
+    "remoteAssetLookupAllowed": false,
+    "delegationAllowed": false
+  }
+}

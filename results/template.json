@@ -1,0 +1,20 @@
+{
+  "benchmark": { "id": "3ds-ui-replication", "version": "1.0.0", "baseline_commit": null },
+  "run_id": null,
+  "status": "pending",
+  "candidate_commit": null,
+  "model": { "provider": null, "name": null, "version": null, "reasoning_effort": null, "agent_product": null },
+  "environment": { "node": null, "os": null, "browser": null, "tools": [], "image_input_verified": null },
+  "budget": { "limit_minutes": 30, "elapsed_minutes": null, "input_tokens": null, "output_tokens": null, "human_feedback_rounds": 0, "delegation_allowed": false },
+  "scores": {
+    "hardware": { "value": null, "reason": null, "evidence": [] },
+    "upper_screen": { "value": null, "reason": null, "evidence": [] },
+    "lower_screen": { "value": null, "reason": null, "evidence": [] },
+    "detail_responsive": { "value": null, "reason": null, "evidence": [] },
+    "interaction": { "value": null, "reason": null, "evidence": [] },
+    "engineering": { "value": null, "reason": null, "evidence": [] }
+  },
+  "total": null,
+  "reviewers": [],
+  "notes": null
+}
